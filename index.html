@@ -16,118 +16,131 @@
 </head>
 <body>
 
-<!-- ══════════════════════════════════════════
-     SVG ICON SPRITE — hidden
-══════════════════════════════════════════ -->
-<svg style="display:none" aria-hidden="true">
-<defs>
+<!-- ════════════════════════════════
+     SVG ICON SPRITE
+════════════════════════════════ -->
+<svg style="display:none" aria-hidden="true"><defs>
+
   <symbol id="i-nib" viewBox="0 0 32 40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
     <path d="M16 2 L28 14 L16 38 L4 14 Z"/>
     <path d="M4 14 L16 20 L28 14"/>
     <path d="M16 20 L16 38"/>
     <circle cx="16" cy="37" r="2" fill="currentColor" stroke="none"/>
   </symbol>
+
   <symbol id="i-nib-sm" viewBox="0 0 24 30" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
     <path d="M12 2 L22 11 L12 28 L2 11 Z"/>
     <path d="M2 11 L12 15 L22 11"/>
     <path d="M12 15 L12 28"/>
     <circle cx="12" cy="27" r="1.5" fill="currentColor" stroke="none"/>
   </symbol>
+
   <symbol id="i-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
     <rect x="3" y="11" width="18" height="11" rx="2"/>
     <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
   </symbol>
+
   <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
     <path d="M12 5v14M5 12h14"/>
   </symbol>
+
   <symbol id="i-back" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <polyline points="15 18 9 12 15 6"/>
   </symbol>
+
   <symbol id="i-dots" viewBox="0 0 24 24" fill="currentColor">
     <circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/>
   </symbol>
+
   <symbol id="i-share" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
     <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/>
     <polyline points="16 6 12 2 8 6"/>
     <line x1="12" y1="2" x2="12" y2="15"/>
   </symbol>
+
   <symbol id="i-trash" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
     <polyline points="3 6 5 6 21 6"/>
     <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/>
     <path d="M10 11v6M14 11v6"/>
     <path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/>
   </symbol>
+
   <symbol id="i-settings" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
     <circle cx="12" cy="12" r="3"/>
     <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
   </symbol>
+
   <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
     <circle cx="11" cy="11" r="8"/>
     <line x1="21" y1="21" x2="16.65" y2="16.65"/>
   </symbol>
+
   <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
     <circle cx="12" cy="12" r="10"/>
     <polyline points="12 6 12 12 16 14"/>
   </symbol>
+
   <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
     <polyline points="22,6 12,13 2,6"/>
   </symbol>
+
   <symbol id="i-feather" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
     <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/>
     <line x1="16" y1="8" x2="2" y2="22"/>
     <line x1="17.5" y1="15" x2="9" y2="15"/>
   </symbol>
+
   <symbol id="i-mic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
     <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
     <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
     <line x1="12" y1="19" x2="12" y2="23"/>
     <line x1="8" y1="23" x2="16" y2="23"/>
   </symbol>
+
   <symbol id="i-focus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
     <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
   </symbol>
+
   <symbol id="i-eye" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
     <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
     <circle cx="12" cy="12" r="3"/>
   </symbol>
+
   <symbol id="i-eye-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
     <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19"/>
     <line x1="1" y1="1" x2="23" y2="23"/>
   </symbol>
+
   <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
     <polyline points="20 6 9 17 4 12"/>
   </symbol>
-  <symbol id="i-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
-    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
-    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
-  </symbol>
+
   <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
     <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
     <circle cx="12" cy="10" r="3"/>
   </symbol>
+
   <symbol id="i-key" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
     <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/>
   </symbol>
+
   <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
     <line x1="18" y1="6" x2="6" y2="18"/>
     <line x1="6" y1="6" x2="18" y2="18"/>
   </symbol>
+
   <symbol id="i-target" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
     <circle cx="12" cy="12" r="10"/>
     <circle cx="12" cy="12" r="6"/>
     <circle cx="12" cy="12" r="2"/>
   </symbol>
-  <symbol id="i-eraser" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M20 20H7L3 16l11-11 6 6-4.5 4.5"/>
-    <path d="M6.0 11.0 L13 18"/>
-  </symbol>
-</defs>
-</svg>
 
-<!-- ══════════════════════════════════════════
+</defs></svg>
+
+<!-- ════════════════════════════════
      SPLASH
-══════════════════════════════════════════ -->
+════════════════════════════════ -->
 <div id="splash" class="screen">
   <div class="splash-inner">
     <div class="splash-nib">
@@ -145,35 +158,34 @@
   </div>
 </div>
 
-<!-- ══════════════════════════════════════════
+<!-- ════════════════════════════════
      LOCK SCREEN
-══════════════════════════════════════════ -->
+════════════════════════════════ -->
 <div id="lock" class="screen hidden">
   <div class="l-orb l-orb-a"></div>
   <div class="l-orb l-orb-b"></div>
   <div class="lock-card" id="lock-card">
     <div class="lock-logo">
-      <svg width="24" height="30" aria-hidden="true"><use href="#i-nib"/></svg>
+      <svg width="24" height="30"><use href="#i-nib"/></svg>
     </div>
-    <h1 class="lock-h" id="lock-h">Welcome back</h1>
-    <p class="lock-sub" id="lock-sub">Enter your password to open your journal</p>
+    <h1 class="lock-h"  id="lock-h">Welcome back</h1>
+    <p  class="lock-sub" id="lock-sub">Enter your password to open your journal</p>
 
     <div class="inp-row" id="inp1-row">
       <input type="password" class="lock-inp" id="inp1" placeholder="Password" autocomplete="current-password">
-      <button class="eye-btn" id="eye1" tabindex="-1" aria-label="Show password">
+      <button class="eye-btn" id="eye1" tabindex="-1">
         <svg width="17" height="17"><use href="#i-eye" id="eye1-ico"/></svg>
       </button>
     </div>
     <div class="inp-row hidden" id="inp2-row">
       <input type="password" class="lock-inp" id="inp2" placeholder="Confirm password" autocomplete="new-password">
-      <button class="eye-btn" id="eye2" tabindex="-1" aria-label="Show password">
+      <button class="eye-btn" id="eye2" tabindex="-1">
         <svg width="17" height="17"><use href="#i-eye" id="eye2-ico"/></svg>
       </button>
     </div>
 
     <p class="lock-err" id="lock-err"></p>
     <button class="lock-btn" id="lock-btn">Open Journal</button>
-
     <div class="lock-brand">
       <svg width="10" height="12"><use href="#i-nib-sm"/></svg>
       <div class="lock-dot"></div>
@@ -182,34 +194,25 @@
   </div>
 </div>
 
-<!-- ══════════════════════════════════════════
+<!-- ════════════════════════════════
      NOTES LIST
-══════════════════════════════════════════ -->
+════════════════════════════════ -->
 <div id="app" class="screen hidden">
 
-  <!-- Header -->
   <header class="app-header">
     <div class="app-logo">
-      <svg class="logo-nib" aria-hidden="true"><use href="#i-nib"/></svg>
+      <svg class="logo-nib"><use href="#i-nib"/></svg>
       <span class="app-name">Invisible Ink</span>
     </div>
     <div class="hdr-acts">
-      <button class="hdr-btn" id="btn-search" aria-label="Search">
-        <svg width="17" height="17"><use href="#i-search"/></svg>
-      </button>
-      <button class="hdr-btn" id="btn-privacy" aria-label="Privacy blur">
-        <svg width="17" height="17"><use href="#i-eye" id="privacy-ico"/></svg>
-      </button>
-      <button class="hdr-btn" id="btn-goal" aria-label="Word count goal">
-        <svg width="17" height="17"><use href="#i-target"/></svg>
-      </button>
-      <button class="hdr-btn" id="btn-settings" aria-label="Settings">
-        <svg width="17" height="17"><use href="#i-settings"/></svg>
-      </button>
+      <button class="hdr-btn" id="btn-search"  aria-label="Search"><svg width="17" height="17"><use href="#i-search"/></svg></button>
+      <button class="hdr-btn" id="btn-privacy" aria-label="Privacy blur (5 seconds)"><svg width="17" height="17"><use href="#i-eye" id="privacy-ico"/></svg></button>
+      <button class="hdr-btn" id="btn-goal"    aria-label="Word goal"><svg width="17" height="17"><use href="#i-target"/></svg></button>
+      <button class="hdr-btn" id="btn-settings" aria-label="Settings"><svg width="17" height="17"><use href="#i-settings"/></svg></button>
     </div>
   </header>
 
-  <!-- Search bar (hidden by default) -->
+  <!-- Search bar (collapsed by default) -->
   <div class="search-wrap" id="search-wrap">
     <div class="search-box">
       <svg class="search-ic" width="14" height="14"><use href="#i-search"/></svg>
@@ -224,7 +227,7 @@
     <button class="prompt-write" id="prompt-write-btn">Write this</button>
   </div>
 
-  <!-- Filter tabs -->
+  <!-- Filter tabs (tag tabs appended by JS) -->
   <div class="filter-row" id="filter-row">
     <button class="ftab active" data-filter="all">All</button>
     <button class="ftab" data-filter="pinned">
@@ -239,38 +242,29 @@
       <svg width="11" height="11" style="opacity:0.6"><use href="#i-lock"/></svg>
       Locked
     </button>
-    <!-- Tag tabs are injected here by JS -->
   </div>
 
   <div class="notes-count" id="notes-count">0 entries</div>
-
-  <!-- Notes list -->
   <div class="notes-scroll" id="notes-list"></div>
 
-  <!-- FAB -->
+  <!-- FAB with word-count ring -->
   <div class="fab-wrap">
     <button class="fab" id="fab" aria-label="New note">
       <svg width="22" height="22"><use href="#i-plus"/></svg>
       <svg class="fab-ring-svg" viewBox="0 0 64 64" aria-hidden="true">
         <circle class="fab-ring-track" cx="32" cy="32" r="31"/>
-        <circle class="fab-ring-prog" cx="32" cy="32" r="31" id="fab-ring"/>
+        <circle class="fab-ring-prog"  cx="32" cy="32" r="31" id="fab-ring"/>
       </svg>
     </button>
   </div>
-
-  <!-- Privacy banner -->
-  <div class="privacy-banner hidden" id="privacy-banner">
-    <svg width="14" height="14"><use href="#i-eye-off"/></svg>
-    Privacy mode on
-  </div>
 </div>
 
-<!-- ══════════════════════════════════════════
+<!-- ════════════════════════════════
      EDITOR
-══════════════════════════════════════════ -->
+════════════════════════════════ -->
 <div id="editor" class="screen hidden sr">
 
-  <!-- Header bar -->
+  <!-- Header -->
   <header class="editor-hdr">
     <button class="ed-back" id="ed-back" aria-label="Back">
       <svg width="20" height="20"><use href="#i-back"/></svg>
@@ -278,7 +272,7 @@
     <span class="ed-badge normal" id="ed-badge">Normal</span>
     <div class="ed-acts">
       <div class="save-dot" id="save-dot"></div>
-      <button class="ed-btn" id="ed-share-btn" aria-label="Share note">
+      <button class="ed-btn" id="ed-share-btn" aria-label="Share">
         <svg width="17" height="17"><use href="#i-share"/></svg>
       </button>
       <button class="ed-btn" id="ed-menu-btn" aria-label="Note options">
@@ -287,7 +281,7 @@
     </div>
   </header>
 
-  <!-- Today's prompt (new notes only) -->
+  <!-- Daily prompt strip (new notes only) -->
   <div class="ed-prompt hidden" id="ed-prompt">
     <svg width="13" height="13" style="color:var(--accent);flex-shrink:0;margin-top:2px"><use href="#i-feather"/></svg>
     <span class="ed-prompt-q" id="ed-prompt-q"></span>
@@ -296,68 +290,53 @@
     </button>
   </div>
 
-  <!-- Scrollable writing canvas -->
-  <div class="ed-scroll" id="ed-scroll">
+  <!-- Writing canvas -->
+  <div class="ed-scroll">
 
-    <!-- Unsent "To:" field -->
+    <!-- "To:" field — visible in Unsent mode only -->
     <div class="to-wrap hidden" id="to-wrap">
       <span class="to-lbl">To:</span>
       <input type="text" class="to-inp" id="to-inp" placeholder="a name, a feeling, a memory…" autocomplete="off">
     </div>
 
-    <!-- Note title -->
+    <!-- Title -->
     <input type="text" id="note-title" placeholder="Untitled" autocomplete="off">
 
-    <!-- Dateline + save indicator -->
+    <!-- Date + save indicator -->
     <div class="ed-dateline">
       <div class="save-dot" id="save-dot2"></div>
       <span id="ed-dateline">—</span>
     </div>
 
-    <!-- Rich text body — contenteditable -->
-    <div
+    <!-- Body — plain textarea, no rich text -->
+    <textarea
       id="note-body"
-      contenteditable="true"
+      placeholder="Begin writing…"
       spellcheck="true"
-      data-placeholder="Begin writing…"
-      role="textbox"
-      aria-multiline="true"
       aria-label="Note body"
-    ></div>
+      rows="1"
+    ></textarea>
 
   </div>
 
-  <!-- Format toolbar — fixed to bottom -->
-  <div class="format-bar" id="format-bar">
-    <!-- Text style -->
-    <button class="fmt-btn" id="fmt-bold"   title="Bold (⌘B)"><span class="fmt-b">B</span></button>
-    <button class="fmt-btn" id="fmt-italic" title="Italic (⌘I)"><span class="fmt-i">I</span></button>
-    <button class="fmt-btn" id="fmt-under"  title="Underline (⌘U)"><span class="fmt-u">U</span></button>
-    <div class="fmt-sep"></div>
-    <!-- Block style -->
-    <button class="fmt-btn" id="fmt-h1"    title="Heading"><span class="fmt-h">H</span></button>
-    <button class="fmt-btn" id="fmt-quote" title="Quote" style="font-style:italic;font-size:17px">"</button>
-    <button class="fmt-btn" id="fmt-clear" title="Clear formatting">
-      <svg width="16" height="16"><use href="#i-eraser"/></svg>
+  <!-- Bottom tools: voice + focus only -->
+  <div class="editor-tools">
+    <button class="ed-btn" id="btn-voice" aria-label="Voice to text" title="Voice to text">
+      <svg width="17" height="17"><use href="#i-mic"/></svg>
     </button>
-    <div class="fmt-sep"></div>
-    <!-- Tools -->
-    <button class="fmt-btn" id="fmt-voice" title="Voice to text">
-      <svg width="16" height="16"><use href="#i-mic"/></svg>
-    </button>
-    <button class="fmt-btn" id="fmt-focus" title="Focus mode">
-      <svg width="16" height="16"><use href="#i-focus"/></svg>
+    <button class="ed-btn" id="btn-focus" aria-label="Focus mode" title="Focus mode">
+      <svg width="17" height="17"><use href="#i-focus"/></svg>
     </button>
   </div>
+
 </div>
 
-<!-- ══════════════════════════════════════════
-     SHARE VIEW SCREEN (opened via URL hash)
-══════════════════════════════════════════ -->
+<!-- ════════════════════════════════
+     SHARE VIEW  (URL hash routing)
+════════════════════════════════ -->
 <div id="share-view" class="screen hidden">
   <div class="sv-orb"></div>
 
-  <!-- Password gate -->
   <div class="share-gate" id="sv-gate" style="display:none">
     <div class="lock-logo" style="margin:0 auto 22px">
       <svg width="22" height="26"><use href="#i-key"/></svg>
@@ -374,14 +353,12 @@
     <button class="lock-btn" id="sv-unlock">Read Note</button>
   </div>
 
-  <!-- Invalid / expired -->
   <div class="share-gate" id="sv-dead" style="display:none;text-align:center">
     <div style="font-size:44px;margin-bottom:18px">✦</div>
     <h1 class="lock-h">Link Unavailable</h1>
     <p class="lock-sub" id="sv-dead-msg">This link is invalid or has expired.</p>
   </div>
 
-  <!-- Note view -->
   <div class="snv-wrap" id="sv-note">
     <div class="snv-inner">
       <div class="snv-brand">
@@ -389,16 +366,16 @@
         Shared via Invisible Ink
       </div>
       <h1 class="snv-title" id="snv-title"></h1>
-      <p class="snv-date" id="snv-date"></p>
+      <p  class="snv-date"  id="snv-date"></p>
       <div class="snv-body" id="snv-body"></div>
       <div class="snv-footer">Invisible Ink · by Muhammad Daniya</div>
     </div>
   </div>
 </div>
 
-<!-- ══════════════════════════════════════════
+<!-- ════════════════════════════════
      NOTE OPTIONS SHEET
-══════════════════════════════════════════ -->
+════════════════════════════════ -->
 <div class="overlay" id="menu-overlay">
   <div class="sheet">
     <div class="sheet-handle"></div>
@@ -407,28 +384,19 @@
     <div class="sheet-sec">
       <span class="s-label">Mode</span>
       <div class="mode-opts">
-        <button class="mode-opt" data-mode="normal" id="mo-normal">
+        <button class="mode-opt" data-mode="normal">
           <svg class="mode-opt-ic" width="18" height="18"><use href="#i-feather"/></svg>
-          <div class="mode-opt-info">
-            <div class="mode-opt-name">Normal</div>
-            <div class="mode-opt-desc">A private thought, just for you</div>
-          </div>
+          <div class="mode-opt-info"><div class="mode-opt-name">Normal</div><div class="mode-opt-desc">A private thought, just for you</div></div>
           <svg class="mode-opt-chk" width="15" height="15"><use href="#i-check"/></svg>
         </button>
-        <button class="mode-opt" data-mode="unsent" id="mo-unsent">
+        <button class="mode-opt" data-mode="unsent">
           <svg class="mode-opt-ic" width="18" height="18"><use href="#i-mail"/></svg>
-          <div class="mode-opt-info">
-            <div class="mode-opt-name">Unsent Thought</div>
-            <div class="mode-opt-desc">Words meant for someone, never sent</div>
-          </div>
+          <div class="mode-opt-info"><div class="mode-opt-name">Unsent Thought</div><div class="mode-opt-desc">Words meant for someone, never sent</div></div>
           <svg class="mode-opt-chk" width="15" height="15"><use href="#i-check"/></svg>
         </button>
-        <button class="mode-opt" data-mode="locked" id="mo-locked">
+        <button class="mode-opt" data-mode="locked">
           <svg class="mode-opt-ic" width="18" height="18"><use href="#i-lock"/></svg>
-          <div class="mode-opt-info">
-            <div class="mode-opt-name">Time-Locked</div>
-            <div class="mode-opt-desc">Hidden until a future date you choose</div>
-          </div>
+          <div class="mode-opt-info"><div class="mode-opt-name">Time-Locked</div><div class="mode-opt-desc">Hidden until a future date you choose</div></div>
           <svg class="mode-opt-chk" width="15" height="15"><use href="#i-check"/></svg>
         </button>
       </div>
@@ -458,9 +426,9 @@
   </div>
 </div>
 
-<!-- ══════════════════════════════════════════
+<!-- ════════════════════════════════
      SHARE MODAL
-══════════════════════════════════════════ -->
+════════════════════════════════ -->
 <div class="overlay" id="share-overlay">
   <div class="sheet">
     <div class="sheet-handle"></div>
@@ -492,9 +460,9 @@
   </div>
 </div>
 
-<!-- ══════════════════════════════════════════
+<!-- ════════════════════════════════
      SETTINGS SHEET
-══════════════════════════════════════════ -->
+════════════════════════════════ -->
 <div class="overlay" id="settings-overlay">
   <div class="sheet">
     <div class="sheet-handle"></div>
@@ -525,9 +493,9 @@
   </div>
 </div>
 
-<!-- ══════════════════════════════════════════
+<!-- ════════════════════════════════
      WORD GOAL SHEET
-══════════════════════════════════════════ -->
+════════════════════════════════ -->
 <div class="overlay" id="goal-overlay">
   <div class="sheet">
     <div class="sheet-handle"></div>
@@ -537,7 +505,7 @@
         <div class="goal-ring-wrap">
           <svg class="goal-svg" viewBox="0 0 72 72">
             <circle class="goal-track" cx="36" cy="36" r="31"/>
-            <circle class="goal-prog" cx="36" cy="36" r="31" id="goal-prog"/>
+            <circle class="goal-prog"  cx="36" cy="36" r="31" id="goal-prog"/>
           </svg>
           <div class="goal-nums">
             <div class="goal-n" id="goal-n">0</div>
@@ -560,15 +528,13 @@
   </div>
 </div>
 
-<!-- ══════════════════════════════════════════
-     VOICE INDICATOR
-══════════════════════════════════════════ -->
+<!-- Voice indicator -->
 <div class="voice-indicator hidden" id="voice-indicator">
   <div class="voice-dot"></div>
   Listening… tap mic to stop
 </div>
 
-<!-- Focus mode hint -->
+<!-- Focus mode exit hint -->
 <div class="focus-hint hidden" id="focus-hint">Tap anywhere to exit focus mode</div>
 
 <script src="app.js"></script>
